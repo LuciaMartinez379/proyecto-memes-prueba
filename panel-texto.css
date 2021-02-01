@@ -1,0 +1,71 @@
+/*Panel texto*/
+
+textarea {
+    background-color: #30343F;
+    border: none;
+    color: white;
+    padding: 2px 5px;
+    font-size: .9em;
+    margin-bottom: 10px;
+    transition: background-color .2s;
+}
+
+input[type="checkbox"] {
+    width: 10px;
+}
+
+.checkbox-panel {
+    display: flex;
+    align-items: center;
+}
+
+label {
+    margin-left: 5px;
+    font-size: .55em;
+}
+
+#font, #font-int {
+    background-color: #30343F;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    height: 25px;
+    font-size: .7em;
+}
+
+input[type="number"] {
+    width: 50%;
+    height: 25px;
+    background-color: #30343F;
+    border: none;
+    color: white;
+    padding: 0 5px;
+    font-size: .7em;
+    margin-right: 3px;
+    border-radius: 2px;
+}
+
+.fa-align-left, .fa-align-center, .fa-align-right {
+    display: flex;
+    align-items: center;
+    margin: 0 3px;
+    padding: 2px 5px;
+    background-color: #30343F;
+    color: white;
+    border-radius: 2px;
+    transition: background-color .2s;
+}
+
+#cont-claro, #cont-none, #cont-oscuro {
+    text-transform: none;
+    margin-right: 5px;
+    padding: 0 10px;
+    background-color: #30343F;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+#font-sp {
+    width: 100%;
+}
